@@ -24,6 +24,17 @@ export type AmplifyDependentResourcesAttributes = {
             "Region": "string"
         }
     },
+    "auth": {
+        "envproto25628e483": {
+            "IdentityPoolId": "string",
+            "IdentityPoolName": "string",
+            "UserPoolId": "string",
+            "UserPoolArn": "string",
+            "UserPoolName": "string",
+            "AppClientIDWeb": "string",
+            "AppClientID": "string"
+        }
+    },
     "hosting": {
         "S3AndCloudFront": {
             "Region": "string",
